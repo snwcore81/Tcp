@@ -20,9 +20,7 @@ namespace Tcp.Classes
                 KnowingTypes.Add(_oType);
             }
         }
-
-        public static Type[] GetArray() => KnowingTypes.ToArray(); 
-            
+        public static Type[] GetArray() => KnowingTypes.ToArray();             
     }
 
     [DataContract]
